@@ -1,0 +1,98 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.title{
+    text-align: center;
+}
+
+/* .des{
+    text-align: center;
+} */
+.nomi{
+    width: 400px;
+    height: 600px;
+}
+.nom__select{
+    width: 200px;
+    height: 25px;
+}
+.Kattaligi{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cm__btn1{
+    width: 100px;
+    height: 90px;
+    border: 1px solid black;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+.cm__btn2{
+    width: 100px;
+    height: 90px;
+    border: 1px solid black;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+.cm__btn3{
+    width: 100px;
+    height: 90px;
+    border: 1px solid black;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+
+
+.sss{
+    margin-top: 50px;
+}
+.inp1,.inp2,.inp3, .inp4, .inp5, .inp6 ,.inp7, .inp8 {
+    width: 25px;
+    height: 25px;
+}
+.inp__inp{
+    display: flex;
+    align-items: center;
+}
+p{
+    margin-left: 20px;
+}
+.chex__chex{
+    margin-left: 50px;
+}
+.qosh{
+    display: flex;
+    align-items: center;
+
+}
+.markaz{
+    width: 1px;
+    height: 600px;
+    border: 1px solid black;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: -600px;
+}
+.inp7{
+    width: 25px;
+    height: 25px;
+    margin-left: 70px;
+}
+.ong{
+    float: right;
+    margin-right: 233px;
+    margin-top: -602px;
+}
+.dor{
+    font-weight: bold;
+}
+.zakaz__btn{
+    width: 200px;
+    height: 40px;
+    background-color: goldenrod;
+    border: none;
+    color: white;
+}

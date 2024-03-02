@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="./css/style.css">
+     <title>Document</title>
+</head>
+
+<body>
+
+
+     <section>
+          <div class="container">
+            <div class="chap">
+               <h1 class="title">Pitsa Buyurtma Qilish</h1>
+               <div class="nomi">
+                    <h2 class="des">Noni Qadday Bolsin?</h2>
+                    <select class="nom__select" id="mySelect">
+                         <option  value="Qalin">Qalin</option>
+                         <option value="Ortacha">Ortacha</option>
+                         <option value="Yupqa">Yupqa</option>
+                    </select>
+                    <h2 >Kattaligi</h2>
+                    <div class="Kattaligi">
+                         <button onclick="fn1()" class="cm__btn1">25cm</button>
+                         <button onclick="fn2()" class="cm__btn2">30cm</button>
+                         <button onclick="fn3()" class="cm__btn3">35cm</button>
+                    </div>
+                    <h2 class="sss">Ustiga Nima Solaylik?</h2>
+                    <div class="inp__inp">
+                    <div class="chex">
+                         <input onchange="ustiga()"  class="inp1" type="checkbox">
+                         <br>
+                         <input onchange="fn4()" class="inp2" type="checkbox">
+                         <br>
+                         <input onchange="fn5()" class="inp3" type="checkbox">
+                         </div>
+                         <div class="mas">
+                              <p class="pomi">Pomidor</p>
+                              <p>Kurka</p>
+                              <p>Zaytun</p>
+                            
+                         </div>
+                         <div class="chex__chex">
+                              <input onchange="fn6()" class="inp4" type="checkbox">
+                              <br>
+                              <input onchange="fn8()" class="inp5" type="checkbox">
+                              <br>
+                              <input onchange="fn9()" class="inp6" type="checkbox" placeholder="sfssff">
+                              </div>
+                              <div class="mas">
+                                   <p>Tuzlanmagan Bodiring</p>
+                                   <p>Qoziqorin</p>
+                                   <p>Qazi</p>
+                         </div>
+                    </div>
+                    <h2>Qoshimchalar</h2>
+                    <div class="qosh">
+                    <input onchange="fn10()" class="inp8" type="checkbox" name="" id="">
+                    <p>Achchiq</p>
+                    <input onchange="fn11()" class="inp7" type="checkbox" name="" id="">
+                    <p>Pishloq</p>
+                    </div>
+                    </div>
+                    </div>
+     </section>
+     <div class="markaz"></div>
+     <section>
+        <div class="container">
+        <div class="ong">
+            <h2>Non: <span id="myH2"></span></h2>
+            <h2 >Kattaligi:  <span class="Katta__title"></span></h2>
+            <h2>Ustida:</h2>
+            <p class="dor">- Pomidor</p>
+            <p class="bod">- Bodiring</p>
+            <p class="sir">- Sir</p>
+            <p class="output"></p>
+            <p class="output2"></p>
+            <p class="output3"></p>
+            <p class="output4"></p>
+            <p class="output5"></p>
+            <p class="output6"></p>
+
+
+
+
+
+            <h2>Qoshimcha</h2>
+            <p class="achch">- Achchiq</p>
+            <p class="pish">- Pishloq</p>
+            <p class="output7"></p>
+            <p class="output8"></p>
+            <button  class="zakaz__btn">Buyurtma Berish</button>
+            
+
+
+        </div>
+        </div>
+     </section>
+  
+</body>
+<script src="./js/main.js"></script>
+
+</html>
