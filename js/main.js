@@ -1,15 +1,17 @@
 let selectElement = document.getElementById('mySelect')
-let spanElement = document.getElementById('myH2');
+let elMyH2 = document.querySelector('.myH2')
 let elKattaTitle = document.querySelector('.Katta__title')
 const selectedOptions = []
-selectElement.addEventListener('change',function(){
-    selectedOptions.push(this.value)
-    if (selectedOptions.length > 1) {
-        selectedOptions.shift();
-    }
-  spanElement.textContent = selectedOptions.join('Qalin, Ortacha, Yupqa ');
-})
-let arr = ['Kattaligi:']
+ let  newSelectedOptions = document.createElement('option')
+ newSelectedOptions.textContent = 'myH2' 
+ newSelectedOptions.value = 'myH2'
+ function fnNoni(value){
+    elMyH2.textContent = value
+ }
+ 
+
+
+let arr = []
 function fn1() {
     if (arr[arr.length - 1] !== '25cm') {
         arr = [ '25cm']
@@ -34,14 +36,13 @@ function fn2() {
 }
 function fn3() {
     if (arr[arr.length - 1] !== '35cm') {
-        arr = [ '35cm']
-        arr.pop('30cm'); 
-        arr.push('35cm'); 
+        arr = [ '35cm'] 
     } else {
-        arr.push('35cm'); 
+        arr.pop('35cm'); 
        
     }
     elKattaTitle.textContent = arr
+    
 }
 
 let elDor = document.querySelector('.dor')
@@ -91,7 +92,7 @@ function fn4(){
  }
  function fn6(){
     if(elInp4.checked){
-     elOutput4.textContent = '+ Tuzlanmagan Bodiring'
+     elOutput4.textContent = '+ Tuzlangan Bodiring'
      elDor.style.display = 'none'
      elBod.style.display = 'none'
      elSir.style.display = 'none'
@@ -101,7 +102,7 @@ function fn4(){
  } 
  function fn7(){
     if(elInp4.checked){
-     elOutput4.textContent = '+ Tuzlanmagan Bodiring'
+     elOutput4.textContent = '+ Tuzlangan Bodiring'
      elDor.style.display = 'none'
      elBod.style.display = 'none'
      elSir.style.display = 'none'
@@ -154,67 +155,3 @@ function fn4(){
         elOutput8.textContent = ''
     }
  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// function fn1(){
-//   arr.push('25cm')
-
-//   elKattaTitle.textContent = arr
-// }
-// function fn2(){
-//     arr.push('30cm')
-
- 
-//     elKattaTitle.textContent = arr
-// }
-// function fn3(){
-//     arr.push('35cm')
-    
-//     elKattaTitle.textContent = arr
-// }
-
-
-
-
-

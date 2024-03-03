@@ -17,7 +17,8 @@
                <h1 class="title">Pitsa Buyurtma Qilish</h1>
                <div class="nomi">
                     <h2 class="des">Noni Qadday Bolsin?</h2>
-                    <select class="nom__select" id="mySelect">
+                    <select onchange="fnNoni(value)" class="nom__select" id="mySelect">
+                         <option  value="Qalin" hidden>Qalin</option>
                          <option  value="Qalin">Qalin</option>
                          <option value="Ortacha">Ortacha</option>
                          <option value="Yupqa">Yupqa</option>
@@ -51,7 +52,7 @@
                               <input onchange="fn9()" class="inp6" type="checkbox" placeholder="sfssff">
                               </div>
                               <div class="mas">
-                                   <p>Tuzlanmagan Bodiring</p>
+                                   <p>Tuzlangan Bodiring</p>
                                    <p>Qoziqorin</p>
                                    <p>Qazi</p>
                          </div>
@@ -70,7 +71,7 @@
      <section>
         <div class="container">
         <div class="ong">
-            <h2>Non: <span id="myH2"></span></h2>
+            <h2>Non: <span class="myH2"></span></h2>
             <h2 >Kattaligi:  <span class="Katta__title"></span></h2>
             <h2>Ustida:</h2>
             <p class="dor">- Pomidor</p>
@@ -92,7 +93,7 @@
             <p class="pish">- Pishloq</p>
             <p class="output7"></p>
             <p class="output8"></p>
-            <button  class="zakaz__btn">Buyurtma Berish</button>
+            <button  class="button">Buyurtma Berish</button>
             
 
 
